@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Facebook- log in or signup</title>
+            <link rel="icon" type="image/png" href="facebook%20icon.png"/>
+
+
+        <style>
+            body{
+              margin: 0;
+                padding: 0;
+      background: linear-gradient(to top,#dfe3ee,#d4d9e8,#e6e9f2,#f2f3f8,#fefefe); 
+
+
+            }
+            .head{
+                width: 100%;
+                height: 110px;
+                background-color:#3b5998;
+            
+            }
+
+            
+                
+                
+        
+            .fb {
+                margin-top: -50px;
+                margin-left: 300px;
+                display:inline;
+                
+                
+            }
+            .quote{
+                font-family:verdana;
+                font-size:20px;
+                margin-top: 2%;
+                margin-left: 17%;
+            
+            }
+               
+            .center{
+                margin-left:250px;
+            
+                
+                
+                
+            }
+            .p1 {
+                margin-left:55%;
+                margin-top:-110px;
+                color: aliceblue;
+                font-family:Helvetica;
+                font-size: 15px;
+                
+            
+            }
+            .p2 {
+                margin-left:65%;                              
+                margin-top:-75px;
+                color: aliceblue;
+                font-family:Helvetica;
+                font-size: 15px;
+                object-fit:contain;
+                
+            }
+         
+            .new {
+                
+                margin-left:50%;
+                margin-top:-22%;
+                
+            }    
+            .create {
+                font-size:40px;
+                font-family:verdana;
+            
+            }
+            .createnext{
+                margin-top:-8%;
+                font-size:20px;
+            }
+            .one {
+                padding:10px;
+                border-radius:5px;
+            }
+            
+            
+            .two {
+                padding:10px;
+                padding-right:210px;
+                text-align:left;
+                border-radius:5px;
+            }
+            .tik{
+                font-size:20px;
+                color:darkblue;
+                border-radius:100%;
+                
+                
+            }  
+            .creating{
+                padding:10px 80px;
+                background:#0c9b16;
+                border-radius:5px;
+                color:aliceblue;
+                font-size: 16px;
+                
+            }
+            .terms {
+                color:grey;
+                font-size:15px;
+            }
+            .terms2 {
+                color:grey;
+                font-size:20px
+            }
+               .submit {
+                
+                margin-left:75%;
+                margin-top:-110px;
+                
+                background-color:#325a99;
+                color: white;
+                text-align: center;
+                font-size: 16px;
+                cursor: pointer;
+                
+            }
+            footer{
+             background-color:floralwhite;
+             padding:13px;
+            height:170px;
+             
+            }
+            .language_selc{ 
+                margin-left: 10%;
+                word-spacing: 1cm;
+                color:#3b5998;
+                font-size: 15px;
+                list-style: none;
+            }
+            .related {
+                margin-left: 10%;
+                word-spacing:10px;
+                color:#3b5998;
+                text-decoration:none;
+                list-style: none;
+                line-height:30px;
+            }
+           .related a,.language_selc a{
+                color:#3b5998;
+            }  
+            .related a:hover, .language_selc a{
+                
+                text-decoration-line: underline;
+            }
+            .related a:link, .language_selc a:link{
+                text-decoration: none;
+            }
+            .related a:visited, .language_selc:visited{
+                color:darkgrey;
+                
+            }
+            .login{
+                display:inline;
+            }
+            .copyrights{
+            
+                margin-left:12%;
+                color: darkgrey;
+            }
+            .left{
+                margin-left:50%;
+                margin-top:-150px;
+                color:azure;
+                
+                
+            }
+            a.forgetten{
+                color:#9cb4d8;
+                text-decoration: none;
+            }
+            a.forgetten:hover{
+                text-decoration: underline;
+            }
+
+            .top{
+                display: inline-flex;
+                line-height: 30px;
+                }
+            #but{
+                float: right;
+                margin-right: -40%;
+                margin-top: -11%;
+                background-color:#4267b2;
+                color:azure;
+                border: 1px solid #333;
+                padding: 2%;
+                font-weight:bolder;
+            }
+            #but:hover{
+                background: #3c5a99;
+                
+            }
+            a.policy{
+                text-decoration: none;
+                color:#415e9b;
+                
+            }
+            
+        </style>
+    </head>
+        <body>
+            <div class="head">
+                <div class="headimage">
+                 <img class="fb" src="logo.png" alt="error" width="300" height="200">
+                </div>
+                    <div class="left">  
+                 <form class="top" action="">
+                     <p class="mail"> Email or phone:<br>
+                    <input type=" text" placeholder="email or phone"  value=" "><br>
+                     
+                     <p>&nbsp;&nbsp;&nbsp;Password:<br>
+                      &nbsp;&nbsp;&nbsp;<input type="password" value=""><br>
+                     &emsp;<a class="forgetten" href="">Forgotten account?</a>
+                     <input type="button" value="Log In" id="but"></p>
+                </form>
+                </div>
+            </div>
+                
+          
+
+            
+            <div class="quote">Facebook helps you connect and share with the<br> people in your life  </div>
+                          <img class="center" src="center.png" alt="error" width=700px height=300px>
+
+           
+        
+              <div class="new">
+                  <p class="create">Create an account</p><br><br>
+                <p class="createnext">Its free and always will be.</p>
+               <div class="form2">
+                     <input class="one" type="text" placeholder="full name" required>
+                     <input class="one" type="text" placeholder="lastname"  required><br><br>
+                     <input class="two" type="text" placeholder="E-mail" required><br><br>
+                    <input class="two" type="text" placeholder="Re-enter e-mail" required><br><br>
+                    <input class="two" type="password" placeholder="password" required><br><br>
+                    <input class="one" type="date" placeholder="mm/dd/yy" ><br><br>
+                   <div class="tik">
+                       
+                    <input type="radio" >Male
+                    
+                    <input type="radio">Female
+                           
+                       
+                </div>
+                </div>
+                  <p class="terms">By clicking Sign up, you agree our <a class="policy" href="">Terms</a>,<a class="policy" href=" ">Data policy</a> and<br><a class="policy" href=" ">Cookie</a> policy.You may receive SMS notification from us and<br> can opt out at any time </p>
+                <button class="creating">Sign in</button><br><hr>
+                  <p class="terms2"><a class="policy" href="">Create a page</a> for a celebrity, band or bussiness</p>
+                
+            </div>
+
+        </body>
+                <footer>
+                    <ul class="language_selc">
+                        <li>
+                            <a href="English" type=onclick>English(UK)</a> <a href ="tamil" type=onclick>தமிழ்</a>
+                        
+                            <a href="telegu" type=onclick>తెలుగు</a>
+                        <a href="kanada" type=onclick>ಕನ್ನಡ</a>
+                        <a href="hindi" type=onclick>हिन्दी</a>
+                         <a href="malayalam">മലയാളം</a>
+                        <a href="sinhala">සිංහල</a>
+                        <a href="punjabi">ਪੰਜਾਬੀ</a>
+                        <a href="bengali">বাংলা</a>
+                            <button class="add">+</button>
+                        </li>
+                        
+                        
+                    </ul><hr>
+                    <ul class="related">
+                        <li>
+                            <a href="signup" type=onclick>Signup</a> 
+                            <a href ="login" type=onclick>login</a>
+                        
+                            <a href="meesenger" type=onclick>messenger</a>
+                        <a href="facebooklite" type=onclick>facebooklite</a>
+                        <a href="mobile" type=onclick>Mobile</a>
+                         <a href="findfriends">Findfriends</a>
+                        <a href="people">people</a>
+                        <a href="pages">pages</a>
+                        <a href="games">games</a>
+                        <a href="location" type=onclick>location</a> 
+                        <a href ="marketplace" type=onclick>Marketplace</a>
+                        <a href="group" type=onclick>Group</a>
+                        <a href="receipe" type=onclick>Receipe</a>
+                        <a href="sports" type=onclick>Sports</a><br>
+                         <a href="instagram">Instagram</a>
+                        <a href="Local">Local</a>
+                        <a href="about">About</a>
+                        <a href="create ad">CreateAd</a>
+                        <a href="create page" type=onclick>Createpage</a> 
+                        <a href ="Developers" type=onclick>Developers</a>
+                        <a href="careers" type=onclick>Careers</a>
+                        <a href="privacy" type=onclick>Privacy</a>
+                        <a href="ad choice" type=onclick>Adchoice
+                            <i class="img sp_pd96272K33I_2x sx_ec535e"></i></a>
+                        <a href="terms">Terms</a>
+                        <a href="help">Help</a>
+                            
+                            </li>
+                        </ul>
+                    <p class="copyrights"> Facebook © 2018</p>
+
+                    
+                        
+                 </footer>
+
+                
+                
+                
+            
+ 
+               
+            
+           
+
+</html>
+
+           
+                
+          
+        
